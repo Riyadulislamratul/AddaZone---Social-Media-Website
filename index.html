@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assalamu alaikum start with salam/Where Conversations Never End!</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/e3377aef40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="images/addazone.png" alt="ADDAZONE" class="logo">
+            <ul>
+                <a href="index.html"><li><img src="images/ChatGPT Image May 5, 2025, 07_47_25 PM.png" alt=""></li></a>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/FB_IMG_1667494422535.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="settings-menu" >
+            <div id="dark-btn" class="dark-btn-on">
+                <span> </span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/FB_IMG_1667494422535.jpg" alt="">
+                    <div>
+                        <p>Riadul Islam Ratul</p>
+                        <a href=""> See your profile</a>
+                        <hr>
+                    </div>
+                    
+                </div>  
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href=""> Help us to improve the new design</a>
+                        <hr>
+                    </div>
+                 <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon" alt="">
+                    <div class="arrow">
+                        <a href="">Settings &#38; Privacy 
+                            <img src="images/arrow.png" width="10px" alt="">
+                        </a>
+                    </div>
+                 </div>
+                 <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon" alt="">
+                    <div class="arrow">
+                        <a href="">Help &#38; Support 
+                            <img src="images/arrow.png" width="10px" alt="" >
+                        </a>
+                    </div>
+                 </div>
+                 <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon" alt="">
+                    <div class="arrow">
+                        <a href="">Display &#38; Accesssibility 
+                            <img src="images/arrow.png" width="10px" alt="">
+                        </a>
+                    </div>
+                 </div>
+                 <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon" alt="">
+                    <div class="arrow">
+                        <a href="">Logout
+                            <img src="images/arrow.png" width="10px" alt="" class="last-arrow">
+                        </a>
+                    </div>
+                 </div>
+                </div>     
+            </div>
+
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        <!----------------------------------------------------- left-sidebar ---------------------------------------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt=""> Latest News</a>
+                <a href="#"><img src="images/friends.png" alt=""> Friends</a>
+                <a href="#"><img src="images/group.png" alt=""> Group</a>
+                <a href="#"><img src="images/marketplace.png" alt=""> Market Place</a>
+                <a href="#"><img src="images/watch.png" alt=""> Watch</a>
+                <a href="">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href=""><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href=""><img src="images/shortcut-2.png" alt="">Web Design</a>
+                <a href=""><img src="images/shortcut-3.png" alt="">Full Stack Development </a>
+                <a href=""><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+         <!------------------------------------------------------------ main-content ------------------------------------------------------->
+        <div class="main-content">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/FB_IMG_1667494422535.jpg" alt="">
+                    <div>
+                        <p>Riadul Islam Ratul</p><br>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea name="" id="" rows="3" placeholder="What's on your mind, john?"></textarea>
+
+                    <div class="add-post-links">
+                         <a href=""><img src="images/live-video.png" alt="">Live Video</a>
+                         <a href=""><img src="images/photo.png" alt="">Photo/Video</a>
+                         <a href=""><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="stories-carousel">
+                <button class="arrow prev">‹</button>
+                <div class="stories-list">
+                  <!-- Create story -->
+                  <div class="story-item create">
+                    <div class="add-btn">+</div>
+                    <span class="story-label">Create Story</span>
+                  </div>
+                  <!-- Sample stories -->
+                  <div class="story-item" style="background-image:url('image/asifSt.jpg')">
+                    <div class="avatar" style="background-image:url('image/asifPp.jpg')"></div>
+                    <span class="story-label">Md Asif Khan</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('image/joySt.jpg')">
+                    <div class="avatar" style="background-image:url('image/joyPp.jpg')"></div>
+                    <span class="story-label">Joy Deb</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('image/niloySt.jpg')">
+                    <div class="avatar" style="background-image:url('image/niloyPp.jpg')"></div>
+                    <span class="story-label">Md Nakib Hasan</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('image/parvezSt.jpg')">
+                    <div class="avatar" style="background-image:url('image/parvezPp.jpg')"></div>
+                    <span class="story-label">Sayad Golam Morshed</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('image/riyadSt.jpg')">
+                    <div class="avatar" style="background-image:url('image/riyadPp.jpg')"></div>
+                    <span class="story-label">Riyadul Islam Ratul</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('https://via.placeholder.com/120x200/ffa726/ffffff')">
+                    <div class="avatar" style="background-image:url('https://via.placeholder.com/40')"></div>
+                    <span class="story-label">Riyadul Islam Ratul</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('https://via.placeholder.com/120x200/29b6f6/ffffff')">
+                    <div class="avatar" style="background-image:url('https://via.placeholder.com/40/29b6f6')"></div>
+                    <span class="story-label">Md Asif Khan</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('https://via.placeholder.com/120x200/66bb6a/ffffff')">
+                    <div class="avatar" style="background-image:url('https://via.placeholder.com/40/66bb6a')"></div>
+                    <span class="story-label">Md Nakib Hasan</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('https://via.placeholder.com/120x200/ab47bc/ffffff')">
+                    <div class="avatar" style="background-image:url('https://via.placeholder.com/40/ab47bc')"></div>
+                    <span class="story-label">Sayad Golam Morshed</span>
+                  </div>
+                  <div class="story-item" style="background-image:url('https://via.placeholder.com/120x200/ef5350/ffffff')">
+                    <div class="avatar" style="background-image:url('https://via.placeholder.com/40/ef5350')"></div>
+                    <span class="story-label">Joy Deb</span>
+                  </div>
+                </div>
+                <button class="arrow next">›</button>
+              </div>
+
+              <!------------------------------------------------------------ post section --------------------------------------------------->
+            
+            <div class="post-container" >
+                <div class="post-row1">
+                    <div class="user-profile">
+                        <img src="images/FB_IMG_1667494422535.jpg" alt="">
+                        <div>
+                            <p>Riadul Islam Ratul</p>
+                            <span>April 24 2025, 13:40 pm </span>
+                    </div>
+                </div>
+                  
+                   
+                
+               
+                <p class="post-text" >ফুটবল শুধু খেলা নয়, এটা একটি আবেগ, একটি জীবনধারা! 🏆💙</p>
+                    <img src="image/riadP.jpg" class="post-img" alt="">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        
+                    </div>
+            </div>    
+            <div class="post-container" >
+                <div class="post-row1">
+                    <div class="user-profile">
+                        <img src="image/joyPp.jpg" alt="">
+                        <div>
+                            <p class=".post-head">Joy Deb</p>
+                            <span>April 26 2025, 1:40 pm </span>
+                    </div>
+                  
+                </div>
+                  
+                   
+                
+               
+                <p class="post-text" >Smiling is just a individual fact😊🤪 but happiness is not something that is ready made💔😶‍🌫️. It comes from your own actions❤️‍🩹❤️‍🩹.....</p>
+                    <img src="image/joyP.jpg" class="post-img" alt="">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        
+                    </div>
+            </div>    
+            <div class="post-container" >
+                <div class="post-row1">
+                    <div class="user-profile">
+                        <img src="image/parvezPp.jpg" alt="">
+                        <div>
+                            <p>Sayad Golam Morshed</p>
+                            <span>April 4 2025, 3:05 pm </span>
+                        </div>
+                   
+                </div>
+                  
+                   
+                
+               
+                <p class="post-text" >My dream came true!" or a more descriptive phrase like "Finally, after all this time, the dream is here</p>
+                <video controls width="640" height="360">
+                    <source src="image/55548329-942a-4a73-8873-7fda01125202.mp4" type="video/mp4">
+                  </video>
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        
+                    </div>
+            </div>    
+            <div class="post-container" >
+                <div class="post-row1">
+                    <div class="user-profile">
+                        <img src="image/asifPp.jpg" alt="">
+                        <div>
+                            <p>Md Asif Khan</p>
+                            <span>May 2 2025, 13:40 pm </span>
+                    </div>
+                    
+                </div>
+                <p class="post-text" >
+                    🖤 “সব কথা বলা হয় না, কিছু অনুভূতি চুপচাপ বুকে পাথর হয়ে জমে থাকে।” 🖤
+                     </p>
+                    <img src="image/IMG-20250422-WA0011.jpg" class="post-img" alt="">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">570</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">0</div>
+                        </div>
+                        
+                    </div>
+            </div>    
+            
+            
+            <div class="post-container" >
+                <div class="post-row1">
+                    <div class="user-profile">
+                        <img src="image/niloyPp.jpg" alt="">
+                        <div>
+                            <p>Md Nakib Hasan</p>
+                            <span>June 24 2021, 13:40 pm </span>
+                    </div>
+                  
+                </div>
+                  
+                   
+                
+               
+                <p class="post-text" >Keep Smiling and be beautiful. 😃🌸</p>
+                    <img src="image/IMG-20250422-WA0000.jpg" class="post-img" alt="">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        
+                    </div>
+            </div>    
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<button type="button" class="load-more-btn">Load More</button>
+</div>
+        
+      
+        <!---------------------------------------------- right-sidebar -------------------------------------------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-tittle">
+                <h4>Events</h4>
+                <a href="">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willsom Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willsom Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-tittle">
+                <h4>Advertisment</h4>
+                <a href="">Close</a>
+            </div>
+            <img src="images/advertisement.png" alt="" class="sidebar-ads">
+
+            <div class="sidebar-tittle">
+                <h4>Conversation</h4>
+                <a href="">Hide Chat</a>
+            </div>
+
+             <div class="online-list">
+                <div class="online">
+                    <img src="image/parvezPp.jpg" alt="">
+                </div>
+               <a href="parvez.html"> <p>Sayad Golam Morshed</p></a>
+            </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="image/joyPp.jpg" alt="">
+                </div>
+                <p>Joy Deb</p>
+            </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="image/niloyPp.jpg" alt="">
+                </div>
+                <p>Md Nakib Hasan</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2025 - Easy Tutorials Channel</p>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
